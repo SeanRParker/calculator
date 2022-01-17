@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./skeleton.css">
+
+  <title>Calc!</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <p class="display">100 * 34</p>
+    </div>
+    <div class="row">
+      <button class="one-half column clear-btn">CLEAR</button>
+      <button class="one-half column equals-btn">&equals;</button>
+    </div>
+    <div class="row">
+      <button class="three columns num-btn">1</button>
+      <button class="three columns num-btn">2</button>
+      <button class="three columns num-btn">3</button>
+      <button class="three columns operator-btn">&divide;</button>
+    </div>
+    <div class="row">
+      <button class="three columns num-btn">4</button>
+      <button class="three columns num-btn">5</button>
+      <button class="three columns num-btn">6</button>
+      <button class="three columns operator-btn">&times;</button>
+    </div>
+    <div class="row">
+      <button class="three columns num-btn">7</button>
+      <button class="three columns num-btn">8</button>
+      <button class="three columns num-btn">9</button>
+      <button class="three columns operator-btn">&minus;</button>
+    </div>
+    <div class="row">
+      <button class="one-third column num-btn decimal-btn">.</button>
+      <button class="one-third column num-btn">0</button>
+      <button class="one-third column operator-btn">&plus;</button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./index.js" ></script>
+  <style>
+    body {
+      background: rgb(32, 33, 46);
+    }
+    button {
+      font-size: 15px;
+      background: white;
+      border-color: transparent;
+    }
+    button:hover {
+      color: black;
+    }
+    .display {
+      min-height: 5rem;
+      background: rgb(196, 196, 196);
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      margin: 6px 0;
+      font-size: 30px;
+      text-align: right;
+    }
+    .operator-btn {
+      background-color: rgb(207, 120, 21);
+      color:white;
+      font-size: 30px;
+      font-weight: 300;
+      vertical-align: top;
+    }
+    .num-btn {
+      background-color: blanchedalmond;
+      color: cadetblue;
+    }
+    .center {
+      margin: 0 auto;
+    }
+    .equals-btn {
+      background-color: rgb(87, 141, 87);
+      color: white;
+      font-size: 30px;
+      font-weight: 300;
+    }
+    .clear-btn {
+      background-color: rgb(182, 71, 71);
+      color: white;
+    }
+    .decimal-btn {
+      background-color: cadetblue;
+      color: white;
+    }
+  </style>
+</body>
+</html>
