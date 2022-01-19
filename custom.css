@@ -1,0 +1,56 @@
+body {
+  background: rgb(32, 33, 46);
+  color: white;
+}
+h3 {
+  text-align: center;
+  margin: .2em 0;
+}
+button {
+  font-size: 15px;
+  background: white;
+  border-color: transparent;
+}
+button:hover {
+  color: black;
+  border: none;
+}
+#display {
+  min-height: 5rem;
+  background: rgb(180, 180, 180);
+  border-radius: 3px;
+  margin: 6px 0;
+  font-size: 30px;
+  text-align: right;
+  padding: 0 .2em;
+}
+.operator-btn {
+  background-color: rgb(207, 120, 21);
+  color:white;
+  font-size: 30px;
+  font-weight: 300;
+  vertical-align: top;
+}
+.num-btn {
+  background-color: blanchedalmond;
+  color: cadetblue;
+}
+.center {
+  margin: 0 auto;
+}
+.equals-btn {
+  background-color: cadetblue;
+  color: white;
+  font-size:34px;
+  font-weight: 300;
+}
+.clear-btn {
+  background-color: rgb(182, 71, 71);
+  color: white;
+}
+.decimal-btn {
+  background-color: rgb(87, 141, 87);
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
